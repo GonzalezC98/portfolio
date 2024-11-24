@@ -1,0 +1,450 @@
+/* General styles for a clean, professional look */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #435058;
+  background-color: #f1f2ee;
+}
+
+/* Color scheme */
+.header,
+.footer {
+  background-color: #848c8e;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #848c8e;
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Mobile Navbar */
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+    box-shadow: none;
+    border-top: #40f99b solid 2px;
+  }
+  nav ul {
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header p {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #848c8e; /* Battiashop Gray */
+}
+
+.footer p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.introduction {
+  /* center the content */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.introduction-photo {
+  /* center the photo and make a square, with a border radius, make the image fill the container */
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #435058; /* Outer Space */
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: #848c8e solid 2px;
+  border-top: #848c8e solid 2px;
+}
+
+section p {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #435058; /* Outer Space */
+}
+
+.resume {
+  /* center the content */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.projects-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.projects-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #435058; /* Outer Space */
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: #848c8e solid 2px;
+  border-top: #848c8e solid 2px;
+}
+
+.project-section {
+  background: #848c8e;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-section h3 {
+  margin: 10px 0;
+  color: #435058; /* Outer Space */
+  font-size: 2em;
+}
+
+.project-section h2 {
+  margin: 10px 0;
+  color: #435058; /* Outer Space */
+  font-size: 1.2em;
+}
+
+.project-image {
+  /* fit the image to the container but also not to large and keep the aspect ratio */
+  height: 100%;
+  max-height: 200px;
+  padding: 10px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #daddd8; /* Added background color here */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+  font-size: 1em;
+  color: #435058; /* Outer Space */
+  margin: 10px 0;
+}
+
+.projects {
+  /* center the content */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projects li {
+  background: #848c8e;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+.projects a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.skills {
+  /* center the content */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-section {
+  flex: 1 0 250px;
+  background: #40f99b; /* Mindaro */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+    justify-content: center;
+  }
+  .skill-section {
+    flex: 1 0 250px;
+    margin-bottom: 0; /* Remove default margin */
+    max-width: 100%;
+  }
+}
+
+.hobbies {
+  /* center the content */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+/* Accessibility */
+img[alt] {
+  border: none;
+}
+
+/* Gallery container styling */
+.gallery-container-index {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.gallery-container {
+  text-align: center;
+  padding: 20px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gallery-container .photo-item {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.photo-item {
+  background: #bfb7b6; /* Silver */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.photo-item p {
+  font-size: 0.8em;
+}
+
+.photo-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.photo-item:hover {
+  transform: scale(1.05);
+}
+
+.photo-info {
+  padding-top: 10px;
+}
+
+.photo-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #435058; /* Outer Space */
+}
+
+.photo-info p {
+  margin: 5px 0;
+  color: #435058; /* Outer Space */
+}
+
+/* Skills container styling for the index page (ROW) */
+#index .skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+  margin: auto;
+}
+
+#index .skill-section {
+  flex: 1 0 250px;
+  margin-bottom: 0; /* Remove default margin */
+}
+
+/* Skills container styling for the skills page (COLUMN) */
+.skillspage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.skillspage-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #435058; /* Outer Space */
+  font-size: 2.5em;
+}
+
+.skillspage-container p {
+  text-align: center;
+}
+
+.skillspage-section {
+  background: #40f99b; /* Mindaro */ /* Added background color here */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.skillspage-section h3 {
+  margin: 10px 0;
+  color: #435058; /* Outer Space */
+  font-size: 2em;
+}
+
+.skillspage-section h2 {
+  margin: 10px 0;
+  color: #435058; /* Outer Space */
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .skillspage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 460px;
+    text-align: center;
+    justify-content: center;
+  }
+  .skillspage-section {
+    flex: 1 0 250px;
+    margin-bottom: 0; /* Remove default margin */
+  }
+}
+
+.skill-image {
+  /* fit the image to the container but also not to large and keep the aspect ratio */
+  height: 100%;
+  max-height: 100px;
+  padding: 10px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: #daddd8; /* Added background color here */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-description {
+  font-size: 1em;
+  color: #435058; /* Outer Space */
+  margin: 10px 0;
+}
